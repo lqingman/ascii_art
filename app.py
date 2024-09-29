@@ -112,7 +112,8 @@ with gr.Blocks() as demo:
                 examples=[
                     ["./assets/dolphin.jpg"],
                     ["./assets/man.jpg"],
-                    ["./assets/bird.jpg"]
+                    ["./assets/bird.jpg"],
+                    ["./assets/horse.jpg"]
                 ],
                 inputs=image_input
             )
